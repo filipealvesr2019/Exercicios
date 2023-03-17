@@ -12,7 +12,7 @@ function countDown(){
 
     const segtotal = ( datalanc - hoje)/1000;
 
-    const finalDias = math.flooer(segtotal / 60 / 60 / 24);
+    const finalDias = Math.floor(segtotal / 60 / 60 / 24);
     const finalHoras = Math.floor(segtotal / 60 / 60) % 24;
     const finalMinutos = Math.floor(segtotal / 60) % 60;
     const finalSegundos = Math.floor(segtotal) % 60;
@@ -22,6 +22,13 @@ function countDown(){
     hora.innerHTML = formatoTempo(finalHoras)
     minuto.innerHTML = formatoTempo(finalMinutos)
     segundo.innerHTML = formatoTempo(finalSegundos)
+}
+function formatoTempo(tempo){
+    if (tempo < 10){
+        tempo = '0' + tempo
+
+    }
+    return tempo
 }
 
 
