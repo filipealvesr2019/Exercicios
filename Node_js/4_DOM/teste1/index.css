@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+
+.imagensdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    visibility: hidden;
+    
+}
+
+.imagensdiv img{
+    height: 10%;
+    width: 10%;
+    
+}
+
+.imagendiv{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    visibility: hidden;
+}
+
+.imagendiv img {
+    height: 10%;
+    width: 10%;
+}
+.seta-direita {
+    position: absolute;
+        padding: 0.5rem;
+        box-shadow: 3px 3px 0 2px;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        color: #4DBCE9;
+        transform: rotate(133deg);
+        margin-left: 5rem;
+        margin: 20rem;
+        border-radius: 2px;
+    /* Adicione aqui o estilo para a seta da direita */
+}
+
+.seta-esquerda {
+    position: absolute;
+        padding: 0.5rem;
+        box-shadow: 3px 3px 0 2px;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        color: #4DBCE9;
+        transform: rotate(-50deg);
+        margin-left: 21.5rem;
+        border-radius: 2px;
+        margin-top: 20rem;
+    /* Adicione aqui o estilo para a seta da esquerda */
+}
+.seta-direita img{
+    height: 40%;
+    width: 40%;
+}
+
