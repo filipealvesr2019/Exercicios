@@ -48,7 +48,7 @@ h3{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 400;
-        font-size: 31px;
+        font-size: 14pt;
         line-height: 38px;
         /* identical to box height */
     
@@ -57,20 +57,21 @@ h3{
         text-align: center;
     
         color: #FFFFFF;
+        margin-top: 1;
 }
 p{
     background: #FFFFFF;
     border-radius: 10px;
-    width: 50%;
+    width: 42%;
     height: 8%;
     text-align: center;
 }
 p{
     font-family: 'Verdana';
         font-style: normal;
-        font-weight: 400;
-        font-size: 1.2rem;
-        line-height: 33px;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
         /* identical to box height */
     
        
@@ -90,12 +91,15 @@ span{
     
         color: #FFFFFF;
 }
+
 button{
 background: #4DBCE9;
     border-radius: 10px;
     width: 60%;
     border: 0;
     margin-bottom: -18rem;
+    margin-left: 2rem;
+   
 }
 button{
     font-family: 'Inter';
@@ -125,12 +129,13 @@ button{
 .img1{
     background: rgba(77, 188, 233, 0.75);
     border-radius: 10px;
-    width: 88%;
+    width: 75%;
     height: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
+    margin-right: 8rem;
 }
 .img2{
     background: rgba(77, 188, 233, 0.75);
@@ -141,6 +146,7 @@ button{
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
+    margin-right: 5rem;
 }
 ul li img{
     height: 35%;
@@ -154,9 +160,6 @@ ul{
 
 }
 @media only screen  and (min-width: 280px) and (max-width: 653px){
-    .principal{
-        display: flex;
-        flex-direction: column;
-    }
+   
 }
 
