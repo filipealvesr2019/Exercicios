@@ -7,13 +7,9 @@
 }
 
 header{
-    height: 50%;
+    height: 20%;
     background:#212121;
    
-}
-
-header img{
-    padding: 2rem;
 }
 .principal{
     margin-top: 6rem;
@@ -116,7 +112,7 @@ button{
 }
 .image{
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .image img{
     width: 20%;
