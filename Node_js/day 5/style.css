@@ -128,7 +128,7 @@ button{
 .img1{
     background: rgba(77, 188, 233, 0.75);
     border-radius: 10px;
-    width: 75%;
+    width: 80%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -152,6 +152,7 @@ button{
 .img2 img{
     height: 50%;
     width: 70%;
+    margin-top: 1rem;
 }
 ul li img{
     height: 55%;
