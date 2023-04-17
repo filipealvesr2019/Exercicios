@@ -1,5 +1,5 @@
 function direita(image1){
-    document.getElementById("image1");
+    document.getElementById("imagem");
 }
 
 function esquerda(image){
@@ -7,15 +7,14 @@ function esquerda(image){
 }
 
 function addE(cardI){
-    var esquerda = document.getElementById("image1");
+    
     var Element = document.querySelector(cardI);
-    Element.classList.toggle("direita")
+    Element.classList.toggle("direita");
 }
 
 function addEL(cardID){
-    var esquerda = document.getElementById("image");
     var Element = document.querySelector(cardID);
-    Element.classList.toggle("esquerda")
+    Element.classList.toggle("esquerda");
 }
 
 function checkKeyBoardCode()
@@ -27,23 +26,22 @@ function checkKeyBoardCode()
         alert(`tecla pressionada ${name} \r\n valor do keycode: ${code}`);
     }, false);
 }
-function addChange(){
-    document.addChange('keydown', (event) => {
-        var imagem1 = getElementById("image1");
+function addKeyBoardEventListener(){
+
+    document.addEventListener('keydown', (event) => {
+        var imagem1 = getElementById("imagem");
         var imagem2 = getElementById("image")
 
         var code = event.code;
         if(code == 'digite1'){
-            imagem1.classList.toggle('a').style.visibility = "invisible";
-            imagem2.classList.remove('b').style.visibility = "visible";
+            imagem1.classList.toggle('direita').style.visibility = "visible";
+            imagem2.classList.remove('esquerda').style.visibility = "hidden";
         }
         if(code == 'digite2'){
-            imagem1.classList.toggle('a').style.visibility = "visible";
-            imagem2.classList.toggle('b').style.visibility = "visible";
+            imagem1.classList.toggle('direita').style.visibility = "visible";
+            imagem2.classList.remove('esquerda').style.visibility = "hidden";
         }
     },false);
-    console.log(addChange());
 }
 
-checkKeyBoardCode();
-console.log(checkKeyBoardCode());
+addKeyBoardEventListener();
