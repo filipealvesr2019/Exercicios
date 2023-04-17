@@ -54,7 +54,7 @@ h3{
         text-align: center;
     
         color: #FFFFFF;
-        margin-top: -0.5rem;
+        margin-top: -6rem;
 }
 p{
     background: #FFFFFF;
@@ -150,6 +150,8 @@ ul button{
     margin-right: -8rem;
     margin-top: -9rem;
     visibility: hidden;
+    
+    
 }
 .img2 img{
     height: 50%;
@@ -193,8 +195,20 @@ image span{
     border-width: 0 0 2px 2px;
     color: #4DBCE9;
     transform: rotate(-50deg);
-    margin-left: 21.5rem;
+    margin-left: 23.5rem;
     border-radius: 2px;
+}
+
+
+#image{
+    margin-left: -1rem;
+    margin-top: -9rem;
+    
+    
+}
+#image1{
+    z-index: 1;
+    
 }
 @media only screen  and (min-width: 280px) and (max-width: 653px){
    
