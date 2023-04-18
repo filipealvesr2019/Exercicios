@@ -1,48 +1,31 @@
-function direita(direita){
-    document.getElementById("direita").style.visibility = "visible";
+const setaDireita = document.querySelector("#seta-direita")
+const setaEsquerda = document.querySelector("#seta-esquerda")
+let slideDireita = document.querySelector("#direita")
 
+function ToggleSlide(){
+    let img = document.querySelector("#direita")
+
+    if(img.indexOf('img/image1.png') != -1)
+    {
+        document.getElementById("title").innerHTML = "Honda CB 500X"
+        
+        document.getElementById('direita').src = 'img/image2.png'
+    }else{
+
+        document.getElementById("title").innerHTML = "Scooter Elétrica Voltz EV1"
+        
+        document.getElementById('direita').src = 'img/image1.png'
+    }
 }
+setInterval(ToggleSlide,40000)
 
-function esquerda(esquerda){
-    document.getElementById("esquerda").style.visibility = "visible";
-}
 
-/*function addE(cardI){
-    
-    var Element = document.querySelector(cardI);
-    Element.classList.toggle("direita");
-}
+setaDireita.addEventListener('click', ToggleSlide)
+setaEsquerda.addEventListener('click', ToggleSlide)
 
-function addEL(cardID){
-    var Element = document.querySelector(cardID);
-    Element.classList.toggle("esquerda");
-}
 
-function checkKeyBoardCode()
-{
-    document.addEventListener('keydown', (event) => {
-        var name = event.key;
-        var name = event.code;
+let imgA = document.getElementById('direita').src
+console.log(imgA.indexOf('img/image1.png'))
 
-        alert(`tecla pressionada ${name} \r\n valor do keycode: ${code}`);
-    }, false);
-}
-function addKeyBoardEventListener(){
 
-    document.addEventListener('keydown', (event) => {
-        var imagem1 = getElementById("imagem");
-        var imagem2 = getElementById("image")
 
-        var code = event.code;
-        if(code == 'digite1'){
-            imagem1.classList.toggle('direita').style.visibility = "visible";
-            imagem2.classList.remove('esquerda').style.visibility = "hidden";
-        }
-        if(code == 'digite2'){
-            imagem1.classList.toggle('direita').style.visibility = "visible";
-            imagem2.classList.remove('esquerda').style.visibility = "hidden";
-        }
-    },false);
-}
-
-addKeyBoardEventListener();*/
