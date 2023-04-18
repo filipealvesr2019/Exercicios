@@ -1,12 +1,13 @@
-function direita(image1){
-    document.getElementById("imagem");
+function direita(direita){
+    document.getElementById("direita").style.visibility = "visible";
+
 }
 
-function esquerda(image){
-    document.getElementById("image");
+function esquerda(esquerda){
+    document.getElementById("esquerda").style.visibility = "visible";
 }
 
-function addE(cardI){
+/*function addE(cardI){
     
     var Element = document.querySelector(cardI);
     Element.classList.toggle("direita");
@@ -44,4 +45,4 @@ function addKeyBoardEventListener(){
     },false);
 }
 
-addKeyBoardEventListener();
+addKeyBoardEventListener();*/

@@ -95,8 +95,7 @@ background: #4DBCE9;
     height: 20%;
     width: 25%;
     border: 0;
-    margin-top: 13rem;
-    margin-left: 5rem;
+    margin-top: 20rem;
    
 }
 ul button{
@@ -200,14 +199,16 @@ image span{
 }
 
 
-#image{
+#esquerda{
     margin-left: -1rem;
     margin-top: -9rem;
+    visibility: hidden;
     
     
 }
-#imagem{
+#direita{
     z-index: 1;
+    
     
 }
 @media only screen  and (min-width: 280px) and (max-width: 653px){
