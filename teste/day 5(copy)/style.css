@@ -107,4 +107,20 @@ button{
     .E, .D{
         display: block;
     }
+    #sideA{
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    #sideB{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+    }
+        #geral{
+        display: flex;
+        
+    }
+
 }
