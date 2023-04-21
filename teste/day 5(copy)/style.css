@@ -122,5 +122,9 @@ button{
         display: flex;
         
     }
+    .esconder{
+        display: none;
+        align-items: center;
+    }
 
 }
