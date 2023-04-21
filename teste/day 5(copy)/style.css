@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     height: 1.5rem;
@@ -103,7 +104,19 @@ button{
     display: none;
 }
 
+
+#sideB {
+    display: flex;
+    flex-direction:column;
+}
 @media only screen and (max-width: 1440px) and (min-width: 760px){
+    header{
+        height: 5rem;
+    }
+        #img {
+            margin-top: -1.8rem;
+            height: 6rem;
+        }
     .E, .D{
         display: block;
     }
@@ -111,12 +124,14 @@ button{
         display: flex;
         flex-direction: column;
         float: left;
+        padding: 4rem;
     }
     #sideB{
         display: flex;
         flex-direction: column;
         float: left;
         text-align: center;
+        padding: 4rem;
     }
         #geral{
         display: flex;
@@ -126,5 +141,32 @@ button{
         display: none;
         align-items: center;
     }
+        .right-side button {
+            background-color: transparent;
+            cursor: pointer;
+    
+    
+    
+        }
+.img{
+    width: 22rem;
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+}
 
+@media only screen and (max-width: 1280px) and (min-width: 800px){
+    header{
+        height: 5rem;
+    }
+    #sideA{
+        height: 8rem;
+    }
 }
