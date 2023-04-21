@@ -92,3 +92,19 @@ button{
     
 
 }
+.img{
+    align-items: center;
+    width: 20rem;
+}
+.right-side{
+    align-items: center;
+}
+.E, .D{
+    display: none;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 760px){
+    .E, .D{
+        display: block;
+    }
+}
