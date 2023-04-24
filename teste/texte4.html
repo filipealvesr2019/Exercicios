@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+  <div class="div1">Conteúdo da primeira div</div>
+  <div class="div2">Conteúdo da segunda div</div>
+</section>
+<style>
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* divide a section em duas linhas iguais */
+  height: 300px; /* altura da section */
+}
+
+.div1 {
+  grid-row: 1; /* primeira div fica na primeira linha */
+  color: blue;
+}
+
+.div2 {
+  grid-row: 2; /* segunda div fica na segunda linha */
+  color: red;
+}
+</style>
+
+</body>
+</html>
