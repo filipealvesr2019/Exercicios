@@ -1,0 +1,302 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Colunas ficam lado a lado em telas maiores. */
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Colunas empilhadas em telas menores. */
+  }
+}
+
+
+
+
+
+.flexContainer{
+  margin-top: 10rem;
+}
+
+
+.itemA{
+  border: 1px solid brown;
+
+}
+
+
+
+
+
+
+
+
+.flexBContainer{
+   margin-top: 10rem;
+}
+
+.itemB{
+  border: 1px solid teal;
+
+}
+
+
+.itemC{
+  border: 1px solid red;
+
+}
+
+
+
+
+.flexCContainer{
+  margin-top: 10rem;
+}
+
+
+
+
+
+.flexDContainer{
+  margin-top: 10rem;
+}
+.itemD{
+  border: 1px solid blue;
+
+}
+
+
+.flexEContainer{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.itemE{
+  border: 1px solid olivedrab;
+
+}
+
+
+
+.clamp{
+  margin-top: 10rem;
+  
+  
+  
+}
+
+.left{
+  width: 90vw;
+  width: clamp(16rem, 90vw, 70rem);
+  left: auto;
+  right: auto;
+  padding-left: 1.5;
+  padding-right: 1.5;
+  position: relative;
+ 
+}
+
+.leftItem{
+  color: aqua;
+
+ 
+
+}
+
+
+.rightItem{
+  color: blueviolet;
+
+
+
+}
+
+
+.centerItem{
+  color: red;
+ 
+
+
+}
+
+
+.nav_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: lightblue;
+  padding: 4rem;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.nav{
+  background-color: green;
+  padding: 2px;
+  flex-grow: 1;
+  margin-top: 10rem;
+  padding: 5rem;
+}
+.nav_list a{
+  color: red;
+}
+
+
+.nav_list a:hover,
+.nav_list a:focus{
+  color: #ccc;
+}
+
+
+.nav_list li:nth-of-type(6){
+  background-color: blueviolet;
+    margin-left: auto;
+}
+.nav_list li:nth-of-type(7){
+      background-color: chocolate;
+     
+}
+
+.logo{
+  background-color: tan;
+}
+
+.nav_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: lightblue;
+  padding: 4rem;
+  gap: 1rem;
+}
+
+.nav{
+  background-color: green;
+  padding: 2px;
+  flex-grow: 1;
+  margin-top: 10rem;
+  padding: 5rem;
+}
+.nav_list a{
+  color: red;
+}
+
+
+.nav_list a:hover,
+.nav_list a:focus{
+  color: #ccc;
+}
+
+
+.nav_list li:nth-of-type(6){
+  background-color: blueviolet;
+    margin-left: auto;
+}
+.nav_list li:nth-of-type(7){
+      background-color: chocolate;
+     
+}
+
+.logo{
+  background-color: tan;
+}
+
+
+.nav_listb{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: lightblue;
+  padding: 4rem;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.navb{
+  background-color: green;
+  padding: 2px;
+  flex-grow: 1;
+  margin-top: 10rem;
+  padding: 5rem;
+}
+.nav_listb a{
+  color: red;
+}
+
+
+.nav_listb a:hover,
+.nav_listb a:focus{
+  color: #ccc;
+}
+
+.nav_listb li:nth-of-type(1){
+  background-color: blueviolet;
+    margin-left: auto;
+}
+
+.nav_listb li:nth-of-type(6){
+  background-color: blueviolet;
+    margin-left: auto;
+}
+.nav_listb li:nth-of-type(7){
+      background-color: chocolate;
+     
+}
+
+.logob{
+  background-color: tan;
+}
+
+
+
+
+
+.nav_listc{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: lightblue;
+  padding: 4rem;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.navc{
+  background-color: green;
+  padding: 2px;
+  flex-grow: 1;
+  margin-top: 10rem;
+  padding: 5rem;
+}
+.nav_listc a{
+  color: red;
+}
+
+
+.nav_listc a:hover,
+.nav_listc a:focus{
+  color: #ccc;
+}
+
+
+.nav_listc li:nth-of-type(6){
+  background-color: blueviolet;
+    margin-left: auto;
+}
+.nav_listc li:nth-of-type(7){
+      background-color: chocolate;
+     
+}
+
+.logoc{
+  background-color: tan;
+}
