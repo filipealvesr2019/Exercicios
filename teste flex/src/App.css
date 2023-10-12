@@ -154,14 +154,8 @@
 }
 
 
-.nav_list li:nth-of-type(6){
-  background-color: blueviolet;
-    margin-left: auto;
-}
-.nav_list li:nth-of-type(7){
-      background-color: chocolate;
-     
-}
+
+
 
 .logo{
   background-color: tan;
@@ -195,13 +189,9 @@
 }
 
 
-.nav_list li:nth-of-type(6){
-  background-color: blueviolet;
-    margin-left: auto;
-}
+
 .nav_list li:nth-of-type(7){
-      background-color: chocolate;
-     
+      margin-left: auto;
 }
 
 .logo{
@@ -238,18 +228,15 @@
 }
 
 .nav_listb li:nth-of-type(1){
-  background-color: blueviolet;
+ 
     margin-left: auto;
 }
 
 .nav_listb li:nth-of-type(6){
-  background-color: blueviolet;
+  
     margin-left: auto;
 }
-.nav_listb li:nth-of-type(7){
-      background-color: chocolate;
-     
-}
+
 
 .logob{
   background-color: tan;
