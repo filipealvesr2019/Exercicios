@@ -90,16 +90,7 @@
   
 }
 
-.left{
-  width: 90vw;
-  width: clamp(16rem, 90vw, 70rem);
-  left: auto;
-  right: auto;
-  padding-left: 1.5;
-  padding-right: 1.5;
-  position: relative;
- 
-}
+
 
 .leftItem{
   color: aqua;
@@ -245,45 +236,3 @@
 
 
 
-
-.nav_listc{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  background-color: lightblue;
-  padding: 4rem;
-  gap: 1rem;
-  margin-left: 1rem;
-}
-
-.navc{
-  background-color: green;
-  padding: 2px;
-  flex-grow: 1;
-  margin-top: 10rem;
-  padding: 5rem;
-}
-.nav_listc a{
-  color: red;
-}
-
-
-.nav_listc a:hover,
-.nav_listc a:focus{
-  color: #ccc;
-}
-
-
-.nav_listc li:nth-of-type(6){
-  background-color: blueviolet;
-    margin-left: auto;
-}
-.nav_listc li:nth-of-type(7){
-      background-color: chocolate;
-     
-}
-
-.logoc{
-  background-color: tan;
-}
