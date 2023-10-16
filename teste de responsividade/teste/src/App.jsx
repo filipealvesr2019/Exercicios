@@ -34,8 +34,66 @@ function App() {
   <div className="box"></div>
   <div className="box"></div>
   <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
+  <div className="box"></div>
 </div>
 
+
+<div className="gridB">
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+  <div className="boxB"></div>
+</div>
+
+
+<div className="flex">
+  <div className="flexItem"></div>
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div> 
+  <div className="flexItem"></div>  
+  <div className="flexItem"></div> 
+  
+
+</div>
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
 
 <div className="clamp">
   <div className="clamp"></div>
