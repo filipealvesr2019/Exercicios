@@ -20,7 +20,8 @@
 
 .footer nav {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap; /* Permite que os itens do menu se ajustem a telas menores */
+  justify-content: center;
   padding: 10px;
 }
 
@@ -34,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 0 20px; /* Ajuste a margem conforme necessário */
+  margin: 0 10px; /* Ajuste a margem conforme necessário */
 }
 
 .footer a img {
@@ -48,4 +49,11 @@
 
 .footer a.selected {
   color: blue; /* Ajuste a cor conforme necessário */
+}
+
+/* Ajustes para telas menores */
+@media only screen and (max-width: 600px) {
+  .footer a {
+    margin: 5px; /* Ajuste de margem para telas menores */
+  }
 }
