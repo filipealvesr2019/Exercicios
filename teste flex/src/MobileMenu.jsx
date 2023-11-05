@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,15 +20,7 @@ const MobileMenu = () => {
           borderRadius: '50%',
         }}
       >
-        {isMenuOpen ? (
-          <div>X</div>
-        ) : (
-          <div>
-            <div style={{ width: '25px', height: '3px', backgroundColor: 'black', margin: '4px 0' }}></div>
-            <div style={{ width: '25px', height: '3px', backgroundColor: 'black', margin: '4px 0' }}></div>
-            <div style={{ width: '25px', height: '3px', backgroundColor: 'black', margin: '4px 0' }}></div>
-          </div>
-        )}
+        {isMenuOpen ? <FaTimes /> : <FaBars />}
       </div>
       {isMenuOpen && (
         <div className="menu-content" style={{ marginTop: '20px' }}>
