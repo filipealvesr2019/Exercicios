@@ -20,7 +20,7 @@
 
 .footer nav {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens do menu se ajustem a telas menores */
+  flex-wrap: nowrap; /* Permite que os itens do menu se ajustem a telas menores */
   justify-content: center;
   padding: 10px;
 }
@@ -52,8 +52,14 @@
 }
 
 /* Ajustes para telas menores */
-@media only screen and (max-width: 600px) {
+@media only screen and ( 280px <= width <= 600px) {
   .footer a {
     margin: 5px; /* Ajuste de margem para telas menores */
   }
+
+  
+.footer a img {
+  width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+}
 }
