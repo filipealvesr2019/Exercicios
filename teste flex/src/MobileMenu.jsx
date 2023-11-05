@@ -15,7 +15,11 @@ const MobileMenu = () => {
         style={{ cursor: 'pointer' }}
       >
         {isMenuOpen ? (
-          <div>X</div>
+            <img
+            src="https://i.postimg.cc/gk2pt3N8/close.png"
+            alt="Menu Icon"
+            style={{ width: '30px', height: '30px' }} // ajuste o tamanho conforme necessário
+          />
         ) : (
           <img
             src="https://i.postimg.cc/g2jVNtCR/menu.png"
