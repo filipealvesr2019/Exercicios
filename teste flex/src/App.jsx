@@ -18,10 +18,10 @@ function App() {
      
       <footer className="footer">
         <nav>
-          <a href="#">Home</a>
-          <a href="#">Produtos</a>
-          <a href="#">Pedidos</a>
-          <a href="#">Configurações</a>
+          <a href="#"><img src="https://i.postimg.cc/zD4FjpDs/home.png" alt="" /><span>Home</span> </a>
+          <a href="#"><img src="https://i.postimg.cc/nr9Yx92S/box.png" alt="" /><span>Produtos</span> </a>
+          <a href="#"><img src="https://i.postimg.cc/G2gwNVgJ/to-do-list.png"></img><span>Pedidos</span></a>
+          <a href="#"><img src="https://i.postimg.cc/3xZK1Sh9/setting.png"></img><span>Configurações</span></a>
         </nav>
       </footer>
 
