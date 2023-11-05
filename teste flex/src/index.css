@@ -1,0 +1,32 @@
+.App {
+    position: relative;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 9999; /* Definir um valor alto para garantir que fique acima dos outros elementos */
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+
