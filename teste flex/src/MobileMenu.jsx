@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,14 +12,18 @@ const MobileMenu = () => {
       <div
         className="menu-icon"
         onClick={handleMenuClick}
-        style={{
-          cursor: 'pointer',
-          padding: '10px',
-          backgroundColor: 'lightgray',
-          borderRadius: '50%',
-        }}
+        style={{ cursor: 'pointer' }}
       >
-        {isMenuOpen ? <FaTimes /> : <FaBars />}
+        {isMenuOpen ? (
+          <div>X</div>
+        ) : (
+          <img
+            src="https://i.postimg.cc/g2jVNtCR/menu.png"
+            alt="Menu Icon"
+            style={{ width: '30px', height: '30px' }} // ajuste o tamanho conforme necessário
+          />
+          
+        )}
       </div>
       {isMenuOpen && (
         <div className="menu-content" style={{ marginTop: '20px' }}>
