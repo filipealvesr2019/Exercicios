@@ -13,6 +13,9 @@
   width: 100%;
   background-color: #f1f1f1;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer nav {
@@ -27,39 +30,10 @@
   padding: 10px;
   font-family: 'Urbanist', sans-serif;
   font-weight: 600;
-}
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
-
-.grid-item {
-  height: 200px;
-  background-color: #3498db; /* Substitua pelo código de cor desejado */
-}
-
-
-/* ...seus estilos existentes ... */
-.footer a.selected {
-  color: black; /* ou qualquer outra cor desejada */
-  font-weight: bold; /* ou estilos adicionais desejados para indicar a seleção */
-}
-/* ...seus estilos existentes ... */
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  text-decoration: none;
   margin: 0 20px; /* Ajuste a margem conforme necessário */
 }
 
