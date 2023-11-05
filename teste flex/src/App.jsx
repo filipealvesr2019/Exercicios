@@ -52,7 +52,6 @@ function App() {
       <footer className="footer">
         <nav>
           <a
-            
             className={selectedItem === 'Home' ? 'selected' : ''}
             onClick={() => handleItemClick('Home')}
           >

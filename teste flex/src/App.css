@@ -48,3 +48,30 @@
   font-weight: bold; /* ou estilos adicionais desejados para indicar a seleção */
 }
 /* ...seus estilos existentes ... */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px; /* Ajuste a margem conforme necessário */
+}
+
+.footer a img {
+  width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+}
+
+.footer a span {
+  margin-top: 5px; /* Ajuste a margem conforme necessário */
+}
+
+.footer a.selected {
+  color: blue; /* Ajuste a cor conforme necessário */
+}
