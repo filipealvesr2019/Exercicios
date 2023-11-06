@@ -43,7 +43,7 @@ const MobileMenu = () => {
               }}
               onClick={() => handleItemClick('Item 1')}
             >
-              Item 1
+              Home
             </li>
             <li
               style={{
@@ -52,7 +52,7 @@ const MobileMenu = () => {
               }}
               onClick={() => handleItemClick('Item 2')}
             >
-              Item 2
+              Produto
             </li>
             <li
               style={{
@@ -61,7 +61,7 @@ const MobileMenu = () => {
               }}
               onClick={() => handleItemClick('Item 3')}
             >
-              Item 3
+              Pedidos
             </li>
             {/* Adicione mais itens conforme necessário */}
           </ul>
