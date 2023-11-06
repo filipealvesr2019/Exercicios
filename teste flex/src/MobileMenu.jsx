@@ -23,13 +23,13 @@ const MobileMenu = () => {
           <img
             src="https://i.postimg.cc/gk2pt3N8/close.png"
             alt="Menu Icon"
-            style={{ width: '30px', height: '30px' }} // ajuste o tamanho conforme necessário
+            style={{ width: '30px', height: '30px' , marginLeft:"-1rem"}} // ajuste o tamanho conforme necessário
           />
         ) : (
           <img
             src="https://i.postimg.cc/g2jVNtCR/menu.png"
             alt="Menu Icon"
-            style={{ width: '30px', height: '30px' }} // ajuste o tamanho conforme necessário
+            style={{ width: '30px', height: '30px', marginLeft:"-1rem" }} // ajuste o tamanho conforme necessário
           />
         )}
       </div>
