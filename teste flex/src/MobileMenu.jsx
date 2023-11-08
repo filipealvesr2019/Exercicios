@@ -12,6 +12,10 @@ const MobileMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+
+
+  
   const handleItemClick = (itemName) => {
     setSelectedItem(itemName);
   };
